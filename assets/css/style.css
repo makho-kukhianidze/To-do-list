@@ -1,0 +1,239 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+header{ 
+	display: -webkit-box; 
+	display: -ms-flexbox; 
+	display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 50px;
+    background: #d55151;
+    color: white;
+    padding: 12px;
+    font-size: 24px;
+    margin: 7px;
+}
+form{ 	
+	display: -webkit-box; 	
+	display: -ms-flexbox; 	
+	display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+	height: 400px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #d55151;
+    color: white;
+    padding: 12px;
+    font-size: 24px;
+    margin: 7px;
+}
+.clock{
+	font-size: 14px;
+    padding: 12px;
+    border: none;
+    background: #7e85d7;
+    color: white;
+    font-weight: 900;
+	cursor: pointer;
+}
+.btn{
+	font-size: 14px;
+    padding: 12px;
+    border: none;
+    background: #7e85d7;
+    color: white;
+    font-weight: 900;
+	-webkit-transition: all 3s ease;
+	-o-transition: all 3s ease;
+	transition: all 3s ease; 
+	cursor: pointer;
+}
+.btn:hover{
+    background: #3640a5;
+}
+form input{
+	padding: 12px;
+	font-size: 16px;
+	border:none;
+	background-color: rgb(255, 255, 255);
+	outline: none;
+	margin: 2px;
+}
+input{
+	width: 73%;
+	font-size: 24px;
+	font-weight: 900;
+	color: blue;
+}
+.todo-button{
+	border: none;
+    padding: 14px;
+    background: #7e85d7;
+    font-weight: 900;
+    color: white;
+	-webkit-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+	transition: all 0.9s ease; 
+	cursor: pointer;
+}
+.todo-button:hover{
+    background: #373f96;
+}
+.todo-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #d55151;
+    margin: 8px;	
+}
+
+.todo-list{
+	list-style: none;
+	width: 100%;
+	text-align: center;
+}
+.todo{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	background-color: rgb(224, 115, 115);
+	font-size: 19px;
+	margin: 12px;
+	padding: 1rem;
+	-webkit-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+	transition: all 0.9s ease; 
+}
+.todo li{
+	-webkit-box-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1; 
+    color: white;
+    font-weight: 900;
+}
+.complete-btn{
+	background-color: rgb(107, 207, 112);
+	border:none;
+	padding: 1rem;
+	cursor: pointer;
+}
+.trash-btn{
+	background-color: crimson;
+	border:none;
+	padding: 1rem;
+	cursor: pointer;
+}
+.completed{
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+.fall{
+	-webkit-transform: translate(120px, 50%);
+	    -ms-transform: translate(120px, 50%);
+	        transform: translate(120px, 50%);
+	opacity: 0;
+}
+select{
+    height: 33px;
+    color: rgb(182, 97, 97);
+    cursor: pointer;
+    text-align: center;
+    font-weight: 900;
+}
+.select{
+	margin: 1rem;
+	position: relative;
+	overflow: hidden;
+	padding: 6px;
+}
+select{
+	height: 33px;
+	color:rgb(182, 97, 97);
+	cursor: pointer;
+
+}
+.pos{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+	width: 100%;
+}
+#btn-reset{
+	padding: 12px;
+	border: none;
+	background-color: #b83939;
+	color: white;
+	font-weight: 700;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease; 
+	cursor: pointer;
+}
+#btn-reset:hover{
+	background-color: #8b0f0f;
+}
+footer{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #d55151;
+    color: white;
+    padding: 12px;
+    font-size: 24px;
+    margin: 7px;
+	font-size: 15px;
+}
+h2{
+	margin: 12px;
+}

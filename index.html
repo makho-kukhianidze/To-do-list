@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="my project">
+	<meta name="keywords" content="HTML,CSS,JavaScript">
+	<meta name="author" content="Makho kukhianidze">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>TO DO LIST</title>
+	<link rel="icon" href="assets/icons/m.png" type="image/x-icon">
+
+<body>
+	<header>
+		<div class="clock" id="clockTable" onload="time()"></div>
+		<h1>My To do list</h1>
+		<button class="btn">Change background</button>
+	</header>
+	<div class="main-container">
+		<form>
+			<h2>Write your list</h2>
+			<div class="pos">
+				<input type="text" class='todo-input' placeholder="Write your to do list!">
+				<button type="button" class="todo-button">Add</button>
+			</div>
+			<div class="pos">
+				<button type="button" id="btn-reset">delete all list</button>
+				<div class="select">
+					<select name="todos" class="filter-todo">
+						<option value="all">all list</option>
+						<option value="completed">completed</option>
+						<option value="uncompleted">uncompleted</option>
+					</select>
+				</div>
+			</div>
+		</form>
+		<div class="todo-container">
+			<ul class="todo-list"></ul>
+		</div>
+		<footer>Author: makho kukhianidze</footer>
+	</div>
+	<script src="assets/js/todolist.js"></script>
+</body>
+
+</html>
